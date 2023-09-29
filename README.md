@@ -3,7 +3,7 @@ This program displays the video card, processor and motherboard. Only with pytho
 If the program does not start:
   Install the wmi module:
     Go to the command line and enter the command
-    pip install wmi
+    "pip install wmi"
   Check your python version:
     3.9 ONLY
   Try running the program in the following way:
