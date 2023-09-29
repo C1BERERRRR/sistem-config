@@ -1,10 +1,10 @@
 import platform
 import wmi
 
-# Создаем объект WMI
+
 wmi_obj = wmi.WMI()
 
-# Получаем информацию о видеокарте
+
 for gpu in wmi_obj.Win32_VideoController():
     print("Название видеокарты: ", gpu.Caption)
     print("Память видеокарты: ", gpu.AdapterRAM, "байт")
